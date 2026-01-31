@@ -7,7 +7,7 @@ const errorHandler = require("./middlewares/error.middleware.js");
 
 //Middlewares
 app.use(cors({
-  origin: ["http://localhost:5173"],
+  origin: ["http://localhost:5173", "https://anveshak-delta.vercel.app"],
   credentials: true,
 }));
 app.use(express.json());

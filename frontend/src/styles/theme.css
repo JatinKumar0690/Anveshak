@@ -1,0 +1,39 @@
+:root {
+  --bg-dark: #0b1120;
+  --bg-card: #111827;
+  --primary-blue: #38bdf8;
+  --secondary-blue: #0ea5e9;
+  --text-light: #e5e7eb;
+  --text-muted: #9ca3af;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.navbar-custom {
+  background-color: var(--bg-card);
+}
+
+.brand-text {
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+.card-custom {
+  background-color: var(--bg-card);
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+}
+
+.btn-primary {
+  background-color: var(--secondary-blue);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-blue);
+}
+
